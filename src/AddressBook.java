@@ -29,5 +29,7 @@ public class AddressBook {
         addressBook.removeBuddy(1);
         BuddyInfo buddy2 = new BuddyInfo("Jim", "271", "Carleton");
         addressBook.addBuddy(buddy2);
+        buddy.printBuddyInfo();
+        buddy2.printBuddyInfo();
     }
 }
