@@ -10,13 +10,6 @@ public class BuddyInfo {
         this.address = address;
     }
 
-    public static void main(String[] args) {
-
-        BuddyInfo A = new BuddyInfo("Akshay", "123-456-7891", "123 Way");
-
-        System.out.println("Hello " + A.getName());
-    }
-
     public String getName() {
         return name;
     }
@@ -39,5 +32,14 @@ public class BuddyInfo {
 
     public void setAddress(String address) {
         this.address = address;
+    }
+    
+    public static void main(String[] args) {
+
+        BuddyInfo A = new BuddyInfo("Akshay", "123-456-7891", "123 Way");
+
+        System.out.println("Hello " + A.getName());
+        
+        System.out.println("Git");
     }
 }
