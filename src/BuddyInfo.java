@@ -33,6 +33,10 @@ public class BuddyInfo {
     public void setAddress(String address) {
         this.address = address;
     }
+
+    public void printBuddyInfo() {
+        System.out.print("Buddy: " + this.getName() + ", " + this.getPhoneNumber() + ", " + this.getAddress() + "\n");
+    }
     
     public static void main(String[] args) {
 
